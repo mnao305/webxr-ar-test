@@ -4,6 +4,8 @@
 
 デモ動画: <https://twitter.com/mnao_305/status/1282238017395023872>
 
+動作デモ: <mnao305.github.io/webxr-ar-test/>
+
 表示される画像には[虎の穴ラボさんが配布している画像](https://yumenosora.co.jp/tora-lab/special)を使用しています
 
 ## LICENSE
