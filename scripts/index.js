@@ -73,7 +73,7 @@ function init() {
   reticle.visible = false
   scene.add(reticle)
 
-  new THREE.TextureLoader().load("../images/43_lying-down.png", (tex) => {
+  new THREE.TextureLoader().load("images/43_lying-down.png", (tex) => {
     const imageHeight = 0.1
     const imageWidth = imageHeight * (tex.image.width / tex.image.height);
     const imageGeometry = new THREE.PlaneGeometry(imageWidth, imageHeight);
