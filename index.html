@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>WebXRで遊びたい!</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      #ARButton {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+        border: 1px solid #999;
+        font-size: 16px;
+      }
+
+      p {
+        z-index: 1000;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-right: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #000;
+        display: inline !important;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./scripts/index.js" type="module"></script>
+    <!-- <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script> -->
+    <p>イラスト/(C)toralab</p>
+  </body>
+</html>
